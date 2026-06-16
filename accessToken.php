@@ -1,10 +1,10 @@
 <?php
 //MY MPESA API KEYS
-$consumerKey = "d616gX5nOmbZ7EddhkGokeSSlGp83ArDnSIpbh1AAGbfPH8W";
-$consumerSecret = "LDD9hcmZTruGkJbGymyQr30pL2G8I92EHKBPgpgcmcdBnqyGApfQMtQPwYQlkGMf"; 
+$consumerKey = "";
+$consumerSecret = ""; 
 //ACCESS TOKEN URL
-$access_token_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
-$headers = ['Content-Type:application/json; charset=utf8'];
+$access_token_url = '';
+$headers = [''];
 $curl = curl_init($access_token_url);
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
